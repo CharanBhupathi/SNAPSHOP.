@@ -1,0 +1,92 @@
+  /*TO REMOVE MARGIN AND PADDING:*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0.1 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 3rem; 
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.12em;
+    color: #912d2d; 
+    margin-bottom: 5px;
+    font-weight: 625; 
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: px;
+    font-size: 0.9rem;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button {
+    width: 40%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 2px;
+  }
+  
+  .register-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  footer {
+    position: absolute; 
+    bottom: 10px; 
+    width: 100%;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #000000;
+    font-weight: bold;
+  }

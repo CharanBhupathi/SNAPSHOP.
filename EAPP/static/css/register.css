@@ -1,0 +1,124 @@
+/*GLOBAL STYLE*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #007bff;
+  font-size: 12px; 
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+header h1 {
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  color: #912d2d;
+  padding: 8px 0; 
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px; 
+  font-size: 2rem; 
+  font-weight: 900; 
+  letter-spacing: -4px; 
+  margin: 0; 
+  text-transform: uppercase; 
+}
+
+nav {
+  margin-top: 8px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff; 
+  font-weight: 800;
+  margin: 0 8px; 
+  font-size: 0.8rem; 
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0056b3; 
+}
+
+main {
+  max-width: 400px; 
+  width: 100%;
+  background: #fff;
+  padding: 30px; 
+  box-shadow: 0 9px 16px rgba(0, 0, 0, 0.2); 
+  border-radius: 30px; 
+}
+
+#registration-form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+}
+
+#registration-form label {
+  font-size: 0.9rem; 
+  font-weight: bold;
+  color: #333;
+}
+
+#registration-form input,
+#registration-form select {
+  padding: 8px; 
+  font-size: 0.8rem; 
+  border: 2px solid #ddd;
+  border-radius: 10px; 
+  margin-top: 4px; 
+}
+
+#registration-form input:focus,
+#registration-form select:focus {
+  border-color: #007bff; 
+  outline: none;
+}
+
+#registration-form button {
+  background-color: #007bff; 
+  color: #fff;
+  padding: 10px; 
+  border: none;
+  border-radius: 10px; 
+  font-size: 0.9rem; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#registration-form button:hover {
+  background-color: #0056b3; 
+}
+
+#registration-result {
+  margin-top: 10px; 
+  font-size: 0.9rem; 
+  font-weight: 600;
+  color: #007bff;
+}
+
+
+footer {
+  position: absolute; 
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #000000;
+  font-weight: bold;
+}

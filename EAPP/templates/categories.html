@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categories - SNAPSHOP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/categories.css') }}">
+</head>
+<body>
+  <header>
+    <h1 id="site-title">SNAPSHOP</h1>
+  </header>
+
+  <main>
+      <!--FASHION CATEGORY-->
+    <section id="fashion-category">
+      <div class="category-image-section">
+        <a href="/products/category/2">
+          <img src="{{ url_for('static', filename='images/Fashion.jpg') }}" alt="Fashion & Apparel" class="category-img">
+          <div class="image-title">FASHION</div>
+        </a>
+      </div>
+    </section>
+      <!--ELECTRONICS CATEGORY-->
+    <section id="electronics-category">
+      <div class="category-image-section">
+        <a href="/products/category/1">
+          <img src="{{ url_for('static', filename='images/electronics.jpg') }}" alt="Electronics & Gadgets" class="category-img">
+          <div class="image-title">ELECTRONICS</div>
+        </a>
+      </div>
+    </section>
+
+    <!--BEAUTY CATEGORY-->
+    <section id="beauty-category">
+      <div class="category-image-section">
+        <a href="/products/category/3">
+          <img src="{{ url_for('static', filename='images/beauty.jpg') }}" alt="Beauty & Personal Care" class="category-img">
+          <div class="image-title">BEAUTY</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- HOME CATEGORY-->
+    <section id="home-category">
+      <div class="category-image-section">
+        <a href="/products/category/4">
+          <img src="{{ url_for('static', filename='images/home.jpg') }}" alt="Home & Kitchen" class="category-img">
+          <div class="image-title">HOME</div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SNAPSHOP</p>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/categories.js') }}"></script>
+</body>
+</html>
